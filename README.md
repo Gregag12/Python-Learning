@@ -10,6 +10,7 @@ Practice code documentation and version control through GitHub.
 Repository Structure
 Each folder contains projects, scripts, or exercises on specific topics or days from the course. Here’s the general structure of the repository:
 
+```
 .
 ├── Day 01 - Topic or Project Title
 │   ├── main.py                # Main script file for the day's project
@@ -19,7 +20,7 @@ Each folder contains projects, scripts, or exercises on specific topics or days 
 │   ├── README.md
 │   └── ...
 └── Resources                  # Additional resources, links, and materials used
-
+```
 
 Each folder includes:
 
