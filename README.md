@@ -13,13 +13,19 @@ Each folder contains projects, scripts, or exercises on specific topics or days 
 ```
 .
 ├── Day 01 - Topic or Project Title
-│   ├── main.py                # Main script file for the day's project
-│   ├── README.md              # Summary of the project, key takeaways, and notes
+│   ├── Learning_Practice
+|   |    ├── practice_name.py                # Main script file for the day's project
+│   ├── Projects
+|   |    ├── main_project.py                # Main script file for the day's project
+|   |    ├── README.md                      # Summary of the project, key takeaways, and notes
 ├── Day 02 - Topic or Project Title
-│   ├── main.py
-│   ├── README.md
+│   ├── Learning_Practice
+|   |    ├── practice_name.py               
+│   ├── Projects
+|   |    ├── main_project.py                
+|   |    ├── README.md                      
 │   └── ...
-└── Resources                  # Additional resources, links, and materials used
+└── Resources                                # Additional resources, links, and materials used
 ```
 
 Each folder includes:
