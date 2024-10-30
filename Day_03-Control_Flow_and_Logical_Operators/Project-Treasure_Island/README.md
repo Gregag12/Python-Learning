@@ -33,6 +33,7 @@ Something swims by your legs. It's a crocodile!
 ## Key Code Concepts:
   * **Input Function:** Uses input() to get user responses.
   * **Conditional Operator Functions:** Uses if, elif, else statements to create an adventure game where the makes choices.
+  * **ASCII Characters:** How to use ASCII characters to display images in a text based program
 
 ## How to Run: Navigate to the folder for Day 2 and run the script:
 ```
@@ -41,3 +42,5 @@ python treasure_island.py
 ```
 ## What I Learned: 
     This project helped me further understand user interaction in Python and how to use conditional operators to achieve a goal.
+
+© 2024 Greg Garrett. All rights reserved.

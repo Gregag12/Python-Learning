@@ -36,3 +36,5 @@ python tip_generator.py
 ```
 ## What I Learned: 
     This project helped me further understand basic user interaction in Python and how to use mathmatical functions to achieve a goal.
+
+© 2024 Greg Garrett. All rights reserved.
