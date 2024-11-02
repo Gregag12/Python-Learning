@@ -69,6 +69,8 @@ Guess a letter:
   * **How to Run:** Navigate to the Day 7 folder and run:
 ```bash
 python hangman.py
-What I Learned: This project taught me about game logic and managing state changes within a program, particularly how to track user input dynamically and update outputs in real time.
 ```
+## What I Learned: 
+    This project taught me about game logic and managing state changes within a program, particularly how to track user input dynamically and update outputs in real time.
+
 © 2024 Greg Garrett. All rights reserved.
