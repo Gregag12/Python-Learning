@@ -26,10 +26,10 @@ while True:
                         for char in random_password_list:
                             random_password += char
                     print(random_password)
-                    break
+                    break # Exit inner while loop
                 else:
                     number_characters_str = input("Please enter a valid integer\n")
-            break
+            break # Exit outer while loop
     elif password_type.lower() == "n":
         num_letters = int(input("How many letters would you like in your password?\n"))
         num_capitalized = int(input("How many letters would you like capitalized\n"))
@@ -42,7 +42,7 @@ while True:
 
         for letter in range(num_capitalized):
             random_upper = random.randint(0, len(letters_uppercase) - 1)
-            password += letters[random_upper]
+            password += letters_uppercase[random_upper]
 
         for symbol in range(num_symbols):
             random_symbol = random.randint(0, len(symbols) - 1)
@@ -56,5 +56,7 @@ while True:
 
         random.shuffle(random_password)
         print("Your password is: " + "".join(random_password))
+
+        break # Exit outer while loop
     else:
         password_type = input("Please choose Y or N \n")
