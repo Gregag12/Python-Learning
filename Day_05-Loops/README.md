@@ -16,11 +16,29 @@ The user is prompted to enter the desired number of letters, numbers, and symbol
 The program generates a password using a randomized combination of the specified characters.
 
 ## Example Run:
+  * **Randomly generated password**
 ```plaintext
-How many letters would you like in your password? 5
-How many symbols would you like? 3
-How many numbers would you like? 4
-Your password is: D$2p7&hB3!
+Welcome to the PyPassword Generator
+Would you like your password to be completly random? Please choose 'Y' or 'N'
+Y
+10
+A8ey61eaJw
+```
+
+  * **User specified password**
+```plaintext
+Welcome to the PyPassword Generator
+Would you like your password to be completly random? Please choose 'Y' or 'N'
+n
+How many letters would you like in your password?
+6
+How many letters would you like capitalized
+2
+How many numbers would you like in your password?
+4
+How many symbols would you like in your password?
+3
+Your password is: (!sa(6go18qbSY7
 ```
 ## Key Code Concepts:
   * **Random Selection and Shuffling:** Uses random.choice() and random.shuffle() to randomize characters and order.
