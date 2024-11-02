@@ -3,7 +3,8 @@
 ## Description:
     An interactive text-based adventure game where the player makes choices to navigate through a fictional treasure island. Choices impact the path and determine whether they find the treasure or meet an unfortunate end!
 
-## Objective: To practice if, else conditional operators in Python.
+## Objective: 
+  To practice if, else conditional operators in Python.
 
 ## Skills Practiced:
   * Control flow with if/else statements
@@ -14,8 +15,7 @@
     The program then uses these inputs to generate an interactive adventure game.
 
 ## Example Run:
-```
-plaintext
+```plaintext
 Welcome to Treasure Island!
 Your mission is to find the treasure...Good luck!
 Following the trail into the jungle from the beach, you arrive at a cross road.Which road do you take?
@@ -36,8 +36,7 @@ Something swims by your legs. It's a crocodile!
   * **ASCII Characters:** How to use ASCII characters to display images in a text based program
 
 ## How to Run: Navigate to the folder for Day 2 and run the script:
-```
-bash
+```bash
 python treasure_island.py
 ```
 ## What I Learned: 

@@ -14,8 +14,7 @@ A classic Rock, Paper, Scissors game where the player competes against the compu
   * The game can be repeated by rerunning the script.
 
 ## Sample Interaction:
-```
-plaintext
+```plaintext
 Enter your choice: Rock
 Computer chose: Scissors
 You win!
@@ -26,8 +25,7 @@ You win!
   * **ASCII Characters:** How to use ASCII characters to display images in a text based program
 
 ## How to Run:
-```
-bash
+```bash
 python rock_paper_scissors.py
 ```
 

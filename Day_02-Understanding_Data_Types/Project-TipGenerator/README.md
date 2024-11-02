@@ -3,7 +3,8 @@
 ## Description:
     This simple program generates a tip based on user inputs. The program prompts the user to enter their total bill, a tip amount (10, 12, or 15), how many people are splitting the bill and then generates a tip amount
 
-## Objective: To practice basic input and string manipulation in Python.
+## Objective: 
+  To practice basic input and string manipulation in Python.
 
 ## Skills Practiced:
   * Mathmatical operations
@@ -14,8 +15,7 @@
     The program then uses these inputs to generate a tip amount for each person.
 
 ## Example Run:
-```
-plaintext
+```plaintext
 What was the total bill?
 37
 What percentage tip would you like to give? 10, 12, or 15?
@@ -29,9 +29,9 @@ Each person should pay: $20.35
   * **Input Function:** Uses input() to get user responses.
   * **Mathmatical Functions:** Uses addition, multiplication, division, and rounding to create an accurate tip amount.
 
-## How to Run: Navigate to the folder for Day 2 and run the script:
-```
-bash
+## How to Run: 
+  * Navigate to the folder for Day 2 and run the script:
+```bash
 python tip_generator.py
 ```
 ## What I Learned: 
