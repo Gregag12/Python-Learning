@@ -15,9 +15,27 @@ A classic Rock, Paper, Scissors game where the player competes against the compu
 
 ## Sample Interaction:
 ```plaintext
-Enter your choice: Rock
-Computer chose: Scissors
-You win!
+What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.
+2
+Your choice:
+
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+
+Computer's choice:
+
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+
+It's a draw
 ```
 ## Key Code Concepts:
   * **Random Choice:** The program uses Python’s random.choice() function to select an option for the computer, simulating randomness in gameplay.
