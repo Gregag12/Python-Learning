@@ -1,66 +1,60 @@
 # Day 8: Caesar Cipher
 
 ## Description:
-    The Caesar Cipher is a basic encryption tool that shifts each letter in the message by a specified number of positions. The program allows the user to encrypt or decrypt a message by entering a shift value.
+    A Caesar Cipher program that encrypts and decrypts messages by shifting each letter of the text by a user-defined number of positions in the alphabet.
 
 ## Objective: 
-    To practice using functions for code modularity and to gain experience with character encoding and manipulation.
+    To implement encryption and decryption logic using control flow, loops, and string manipulation, while practicing functions and user input handling.
 
 ## Skills Practiced:
-  * Modular programming with functions
-  * Character encoding and shifting
-  * Managing user input for encryption and decryption
+  * String manipulation to shift letters
+  * Using loops to process each letter in the message
+  * Writing functions for encryption and decryption
+  * Handling user input and output dynamically
 
 ## Expected Behavior:
-  * The user is prompted to choose between encryption and decryption, input a message, and specify a shift number.
-  * The program shifts each letter in the message according to the specified shift value and outputs the result.
+    The program prompts the user to either encrypt or decrypt a message, accepts the message and shift value, then processes it according to the Caesar Cipher rules.
+   * Encryption shifts each letter of the message by the specified number of positions forward in the alphabet.
+   * Decryption reverses the shift to return the original message.
+
 
 ## Example Run:
 ```plaintext
+ _
   ______                                                            ______   __            __
  /      \                                                          /      \ |  \          |  \
-|  $$$$$$\  ______    ______    _______   ______    ______        |  $$$$$$\ \$$  ______  | $$____    ______    ______
-| $$   \$$ |      \  /      \  /       \ |      \  /      \       | $$   \$$|  \ /      \ | $$    \  /      \  /      \
+|  $$$$$$\  ______    ______    _______   ______    ______        |  $$$$$$\ \$$  ______  | $$____    ______    ______  
+| $$   \$$ |      \  /      \  /       \ |      \  /      \       | $$   \$$|  \ /      \ | $$    \  /      \  /      \ 
 | $$        \$$$$$$\|  $$$$$$\|  $$$$$$$  \$$$$$$\|  $$$$$$\      | $$      | $$|  $$$$$$\| $$$$$$$\|  $$$$$$\|  $$$$$$\
 | $$   __  /      $$| $$    $$ \$$    \  /      $$| $$   \$$      | $$   __ | $$| $$  | $$| $$  | $$| $$    $$| $$   \$$
-| $$__/  \|  $$$$$$$| $$$$$$$$ _\$$$$$$\|  $$$$$$$| $$            | $$__/  \| $$| $$__/ $$| $$  | $$| $$$$$$$$| $$
- \$$    $$ \$$    $$ \$$     \|       $$ \$$    $$| $$             \$$    $$| $$| $$    $$| $$  | $$ \$$     \| $$
-  \$$$$$$   \$$$$$$$  \$$$$$$$ \$$$$$$$   \$$$$$$$ \$$              \$$$$$$  \$$| $$$$$$$  \$$   \$$  \$$$$$$$ \$$
+| $$__/  \|  $$$$$$$| $$$$$$$$ _\$$$$$$\|  $$$$$$$| $$            | $$__/  \| $$| $$__/ $$| $$  | $$| $$$$$$$$| $$      
+ \$$    $$ \$$    $$ \$$     \|       $$ \$$    $$| $$             \$$    $$| $$| $$    $$| $$  | $$ \$$     \| $$      
+  \$$$$$$   \$$$$$$$  \$$$$$$$ \$$$$$$$   \$$$$$$$ \$$              \$$$$$$  \$$| $$$$$$$  \$$   \$$  \$$$$$$$ \$$      
                                                                                 | $$
                                                                                 | $$
                                                                                  \$$
 Type 'encode' to encrypt or type 'decode' to decrypt:
 encode
 Type your message:
-Go Bananas
+This is a message
 Type your shift number:
-3
-Here is the encoded result: jr edqdqdv
-Would you like to restart? Type 'yes' or 'no':
-yes
-Type 'encode' to encrypt or type 'decode' to decrypt:
-decode
-Type your message:
-jr edqdqdv
-Type your shift number:
-3
-Here is the decoded result: go bananas
+5
+Here is the encoded result: ymnx nx f rjxxflj
 Would you like to restart? Type 'yes' or 'no':
 no
 Thank you, goodbye
 ```
 
 ## Key Code Concepts:
-  * **Functions:** Uses functions to handle encryption and decryption, enhancing modularity.
-  * **Character Shifting:** Applies character manipulation techniques to create a basic cipher.
 
-## How to Run: 
-   * Navigate to the Day 8 folder and run:
+  * **String Manipulation:** Shifting letters in the alphabet by a specified amount using Python string methods.
+  * **Loops and Functions:** Iterating over each character to apply the cipher, and using functions to separate the encryption and decryption logic.
+  * **Handling User Input:** Taking input from the user for both the message and shift value, then processing that input dynamically.
+  * **How to Run:** Navigate to the Day 8 folder and run:
 ```bash
 python caesar_cipher.py
 ```
-
 ## What I Learned: 
-  This project introduced me to encryption basics and the importance of modular functions to separate program functionality clearly and efficiently.
+    This project taught me how to implement a simple encryption algorithm in Python, understand basic concepts of cryptography, and work with loops, strings, and functions to process data efficiently.
 
 © 2024 Greg Garrett. All rights reserved.
